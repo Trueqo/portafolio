@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../assets/profile.jpg'
+
 import profilePixel from '../assets/profilePixel.png'
 
 const Home = () => {
@@ -19,4 +19,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Home
