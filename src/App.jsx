@@ -5,7 +5,7 @@ import Landing from "./Pages/Landing";
 import Notfount from "./Pages/Notfount";
 const App = () => {
   return (
-    <div className="bg-gray-400 min-h-screen">
+    <div className="bg-color2 ">
       <Navbar />
       <Routes>
         <Route path="/" element={<Landing />} />
