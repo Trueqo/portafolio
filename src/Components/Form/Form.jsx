@@ -8,7 +8,7 @@ const Form = () => {
                 
         </div>
         <div className='absolute bottom-0 right-0 '>
-            <img src={Recurso} className='object-fill w-56 md:w-96 lg:w-[]' />
+            <img src={Recurso} className='object-fill w-56 md:w-96 ' />
         </div>
     </div>
   )
