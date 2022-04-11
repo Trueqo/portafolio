@@ -23,16 +23,16 @@ const Home = () => {
       </div>
       </div>
       <div className='h-auto w-full flex flex-col'>
-      <span className='text-2xl font-bold text-white mt-4 mb-6'>My language frameworks and technologies</span>
+      <span className='text-2xl font-bold text-white mt-4 mb-6'>My language, frameworks and technologies</span>
       <div className='flex flex-col flex-wrap h-40 mt-4 items-center md:gap-5'>
-        <a className='text-7xl text-orange-600'><AiFillHtml5/></a>
-        <a className='text-7xl text-blue-600'><IoLogoCss3/></a>
-        <a className='text-7xl text-yellow-400'><SiJavascript/></a>
-        <a className='text-7xl text-violet-500'><BsFillBootstrapFill/></a>
-        <a className='text-7xl text-green-600'><SiMongodb/></a>
-        <a className='text-7xl text-black'><SiExpress/></a>
-        <a className='text-7xl text-blue-500'><SiReact/></a>
-        <a className='text-7xl text-green-800'><SiNodedotjs/></a>
+        <a className='text-7xl text-orange-600 mb-2'><AiFillHtml5/></a>
+        <a className='text-7xl text-blue-600 mb-2'><IoLogoCss3/></a>
+        <a className='text-7xl text-yellow-400 mb-2'><SiJavascript/></a>
+        <a className='text-7xl text-violet-500 mb-2'><BsFillBootstrapFill/></a>
+        <a className='text-7xl text-green-600 mb-2'><SiMongodb/></a>
+        <a className='text-7xl text-black mb-2'><SiExpress/></a>
+        <a className='text-7xl text-blue-500 mb-2'><SiReact/></a>
+        <a className='text-7xl text-green-800 mb-2'><SiNodedotjs/></a>
         
       </div>
       </div>
