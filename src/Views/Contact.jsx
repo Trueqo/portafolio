@@ -1,9 +1,10 @@
 import React from 'react'
+import Form from '../Components/Form/Form'
 
 const Contact = () => {
   return (
-    <div className='bg-red-400 min-h-screen flex justify-center items-center'>
-            <h1>Contact</h1>
+    <div className='bg-white min-h-screen px-10 pt-56 pb-44'>
+            <Form/>
     </div>
   )
 }

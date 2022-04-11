@@ -5,7 +5,7 @@ import css from './Card.css'
 
 const Card = () => {
   return (
-    <div className='Card absolute min-w-full min-h-full rounded-full'>
+    <div className='Card absolute min-w-full min-h-full rounded-full active'>
     <FrontCard/>
     <BackCard/>
     </div>
