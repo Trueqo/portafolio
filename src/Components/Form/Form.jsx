@@ -1,15 +1,12 @@
 import React from 'react'
-import Recurso from '../../assets/Recurso.png'
+
 const Form = () => {
   return (
-    <div className='relative justify-center items-center'>
-
-        <div className='bg-green-500 w-full min-h-screen'>
-                
+    <div className='relative justify-center items-center text-center'>
+        <span className='text-4xl font-bold text-color1'>CONTACT ME !</span>
+        <div className='bg-white w-full h-[30rem] rounded-2xl mt-5'>
         </div>
-        <div className='absolute bottom-0 right-0 '>
-            <img src={Recurso} className='object-fill w-56 md:w-96 ' />
-        </div>
+        
     </div>
   )
 }

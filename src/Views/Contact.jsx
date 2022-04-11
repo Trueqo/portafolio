@@ -1,10 +1,13 @@
 import React from 'react'
 import Form from '../Components/Form/Form'
-
+import Recurso from '../assets/Recurso.png'
 const Contact = () => {
   return (
-    <div className='bg-white min-h-screen px-10 pt-56 pb-44'>
+    <div className='min-h-screen px-10 pt-32 pb-44 relative flex flex-col'>
             <Form/>
+            <div className='absolute bottom-[-0.4rem] right-0'>
+              <img src={Recurso} className='object-fill w-56 md:w-96'/>
+            </div>
     </div>
   )
 }
