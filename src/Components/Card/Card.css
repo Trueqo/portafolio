@@ -1,8 +1,10 @@
-.Card:active{
-    transform: rotateY(180deg);
-}
+
 
 .Card{
     transform-style: preserve-3d;
     transition: all 2s ease;
+}
+
+.active{
+    transform: rotateY(180deg);
 }
