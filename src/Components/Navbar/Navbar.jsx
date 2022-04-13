@@ -46,7 +46,12 @@ const Navbar = () => {
                         <a href='#' className='text-xl hover:text-teal-900 duration-500'>
                             Contact
                         </a>
-                    </li>  
+                    </li>
+                    <li className='hover:border-b-2 hover:border-white duration-500 cursor-pointer border-2 border-color2 rounded-xl  bg-color2 '>
+                        <a href='#' className='text-white  text-xl hover:text-black duration-500 mx-4'>
+                            CV
+                        </a>
+                    </li> 
                 </ul>
             </div>
 
