@@ -1,7 +1,6 @@
-import { data } from "autoprefixer";
+
 import React from "react";
 import DataProjects from "../../Projects/Projects";
-import Projects from "../../Views/Projects";
 import Modal from "../../Components/Modal/Modal"
 const CardProjects = () => {
   return (
