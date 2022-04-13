@@ -21,6 +21,7 @@ const Form = () => {
         },5000)
       })
       .catch((error) => console.log(error));
+      event.target.reset();
   };
 
   return (
@@ -48,6 +49,12 @@ const Form = () => {
           placeholder="phone"
           className="border-2 border-color2 rounded-md pl-2 text-color1"
         ></input>
+         <input
+          type="correo"
+          name="user_correo"
+          placeholder="Email"
+          className="border-2 border-color2 rounded-md pl-2 text-color1"
+        ></input>
         <textarea
           name="user_message"
           placeholder="additional message"
@@ -57,9 +64,10 @@ const Form = () => {
           type="submit"
           className="w-[6rem] h-[1.9rem] absolute bottom-[-2.5rem]  bg-color1 text-white rounded-xl"
         ></input>
+        
         {emailDone && (
-          <div className="bg-green-400 text-black h-10 border-2 items-center">
-            Mensaje enviado con éxito
+          <div className="bg-green-400 text-black h-10 rounded-xl flex items-center align-middle p-2">
+            Mensaje enviado con éxito.
           </div>
         )}
       </form>
