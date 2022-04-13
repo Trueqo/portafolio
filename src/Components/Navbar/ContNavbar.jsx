@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiFillCloseSquare } from 'react-icons/ai';
-import CV from '../../documents/CV.pdf'
+import CVJulianOchoaBarco from '../../documents/CV.pdf'
 const ContNavbar = ({showMenu,active}) => {
   return (
     <div className='md:hidden'>
@@ -28,7 +28,7 @@ const ContNavbar = ({showMenu,active}) => {
                         </a>
                     </li>
                     <li className='hover:border-b-2 hover:border-white duration-500 cursor-pointer border-2 border-color2 rounded-xl  bg-color2 mb:-7  md:mb-20'>
-                        <a  href={CV}  download='CVJulianOchoaBarco.pdf' className='text-white  text-2xl  md:text-5xl hover:text-black duration-500 mx-4'>
+                        <a  href={CVJulianOchoaBarco}  download='CVJulianOchoaBarco.pdf' className='text-white  text-2xl  md:text-5xl hover:text-black duration-500 mx-4'>
                             CV
                         </a>
                     </li>   

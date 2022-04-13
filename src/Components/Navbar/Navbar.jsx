@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import {GiHamburgerMenu} from 'react-icons/gi';
 import ContNavbar from './ContNavbar';
-import CV from '../../documents/CV.pdf'
+import CVJulianOchoaBarco from '../../documents/CV.pdf'
 const Navbar = () => {
 
     const[active,setActive] = useState(false)
@@ -48,7 +48,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='hover:border-b-2 hover:border-white duration-500 cursor-pointer border-2 border-color2 rounded-xl  bg-color2 '>
-                        <a href={CV}  download='CVJulianOchoaBarco.pdf' className='text-white  text-xl hover:text-black duration-500 mx-4'>
+                        <a href={CVJulianOchoaBarco}  download='CVJulianOchoaBarco.pdf' className='text-white  text-xl hover:text-black duration-500 mx-4'>
                             CV
                         </a>
                     </li> 
