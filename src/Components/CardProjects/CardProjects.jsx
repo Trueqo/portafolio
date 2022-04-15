@@ -2,6 +2,7 @@
 import React from "react";
 import DataProjects from "../../Projects/Projects";
 import Modal from "../../Components/Modal/Modal"
+
 const CardProjects = () => {
   return (
     <div className="grid lg:grid-cols-4 gap-4 sm:grid-cols-2">
@@ -12,8 +13,9 @@ const CardProjects = () => {
               
             </div>
 
-            <div className="w-60 h-46 md:h-[5rem] md:w-[15] pb-4 bg-white rounded-b-lg flex justify-end">
-              <Modal/>
+            <div className="w-60 h-46 md:h-[5rem] md:w-[15] pb-4 bg-white rounded-b-lg flex justify-between items-center">
+              <h1 className="pl-4">{datos.title}</h1>
+              <Modal title={datos.title}  description={datos.description}/>
             </div>
           </div>
         );

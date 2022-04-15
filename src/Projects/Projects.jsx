@@ -1,27 +1,27 @@
+const me = [
+  {
+    title: "PokeAPI",
+    description:
+      "Hola a todos bienvenido al todo list, el cual está hecho con el stack MERN, para usarlo solo debes hacer click en ir a tareas.",
+  },
+  {
+    title: "Toquen el DOOM",
+    description: "Segundo proyecto ",
+  },
+  {
+    title: "CovidMap",
+    description:
+      "tercer proyecto",
+  },
+  {
+    title: "TodoList",
+    description:
+      "Hola a todos bienvenido al todo list, el cual está hecho con el stack MERN, para usarlo solo debes hacer click en ir a tareas.",
+  },
+  { title: "", description: "" },
+  { title: "", description: "" },
+  { title: "", description: "" },
+  { title: "", description: "" },
+];
 
-
-const me = [{
-    "nombre": "Julian Ochoa Barco",
-    'description': "Hola a todos bienvenido al todo list, el cual está hecho con el stack MERN, para usarlo solo debes hacer click en ir a tareas.",
-},
-{
-    "nombre": "Julian Ochoa Barco",
-    'description': "Hola a todos bienvenido al todo list, el cual está hecho con el stack MERN, para usarlo solo debes hacer click en ir a tareas."
-},
-{"nombre": "Julian Ochoa Barco",
-'description': "Hola a todos bienvenido al todo list, el cual está hecho con el stack MERN, para usarlo solo debes hacer click en ir a tareas."
-},
-{"nombre": "Julian Ochoa Barco",
-'description': "Hola a todos bienvenido al todo list, el cual está hecho con el stack MERN, para usarlo solo debes hacer click en ir a tareas."
-},
-{"nombre": "Julian Ochoa Barco",
-'description': "Hola a todos bienvenido al todo list, el cual está hecho con el stack MERN, para usarlo solo debes hacer click en ir a tareas."
-},
-{"nombre": "Julian Ochoa Barco",
-'description': "Hola a todos bienvenido al todo list, el cual está hecho con el stack MERN, para usarlo solo debes hacer click en ir a tareas."
-}
-]
-    
-
-
-export default me
+export default me;

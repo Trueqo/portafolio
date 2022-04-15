@@ -18,7 +18,7 @@ const Home = () => {
       <div className='text-center flex flex-col'>
       <span className='font-akshar font-bold text-3xl mt-5'>Hello !</span>
       
-      <div className='px-[27rem] h-44 text-left text-black text-xl'>
+      <div className='px-[27rem] h-44 text-left text-black text-xl font-akshar'>
       <span>Wellcome to my web portfolio. Let me tell you about me. I am Julián OchoaBarco. I am 22 year old. I live in Medellin-Colombia. I am a Full-Stack developer and I am currently studying Mechatronics Engineering. I am engaged</span>
       </div>
       </div>
