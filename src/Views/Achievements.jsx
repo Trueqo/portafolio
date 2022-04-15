@@ -2,8 +2,8 @@ import React from 'react'
 
 const Achievements = () => {
   return (
-    <div className='min-h-screen bg-blue-500 flex justify-center items-center'>
-        <h1>Achievements</h1>
+    <div className='min-h-screen bg-color2   text-center'>
+        <h1 className='font-akshar font-bold text-5xl mt-[8rem] text-white '>Achievements</h1>
     </div>
   )
 }
