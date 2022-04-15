@@ -26,7 +26,7 @@ const Navbar = () => {
             </button>
             
             <div className='md:flex md:mr-5 lg:mr-10 p-8'>
-                <ul className='hidden md:flex md:flex-row md:gap-6 lg:gap-14'>
+                <ul className='hidden md:flex md:flex-row md:gap-6 lg:gap-14 font-akshar'>
                     <li className='hover:border-b-2 hover:border-teal-900 duration-500 cursor-pointer'>
                         <a href='#' className='text-xl hover:text-teal-900 duration-500'>
                             Home

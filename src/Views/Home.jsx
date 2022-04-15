@@ -12,8 +12,8 @@ import { SiNodedotjs } from 'react-icons/si';
 const Home = () => {
   return (
     <div className='min-h-screen text-center flex flex-col items-center'>
-      <span className='text-5xl font-bold text-white mt-4'>Julián Ochoa Barco</span>
-      <span className='text-2xl font-bold text-black mt-4'>FULL-STACK WEB DEVELOPER</span>
+      <span className='text-5xl font-bold text-white mt-4 font-akshar'>Julián Ochoa Barco</span>
+      <span className='text-2xl font-bold text-black mt-4 font-akshar'>FULL-STACK WEB DEVELOPER</span>
       <ContainerCard/>
       <div className='text-center flex flex-col'>
       <span className='font-bold mt-5'>Hello !</span>

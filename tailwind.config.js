@@ -4,6 +4,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+
+      fontFamily:{
+        'akshar':['akshar']
+      },
+
       colors:{
         'color1':'#00979D',
         'color2':'#95A5A6',
