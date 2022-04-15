@@ -48,7 +48,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='hover:border-b-2 hover:border-white duration-500 cursor-pointer border-2 border-color2 rounded-xl  bg-color2 '>
-                        <a href={CVJulianOchoaBarco}  download={'CVJulianOchoaBarco'} className='text-white  text-xl hover:text-black duration-500 mx-4'>
+                        <a href={CVJulianOchoaBarco}  download={'CVJulianOchoaBarco'} className='text-white  text-xl hover:text-black duration-500 px-4 '>
                             CV
                         </a>
                     </li> 
