@@ -1,8 +1,12 @@
+import imgTodoList from '../assets/profile.jpg' 
+
+
 const me = [
   {
-    title: "PokeAPI",
+    title: "TodoList",
     description:
       "Hola a todos bienvenido al todo list, el cual está hecho con el stack MERN, para usarlo solo debes hacer click en ir a tareas.",
+    img: imgTodoList,
   },
   {
     title: "Toquen el DOOM",

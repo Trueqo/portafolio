@@ -4,8 +4,8 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 import {IoIosRocket} from "react-icons/io"
 const Footer = () => {
 
-  const linkWSP = 'https://chatwith.io/es/s/625ba34dd1135'
-  const linkWSP2 = 'https://wa.me/573017604450?text=%20i%20love%20you%20my%20honney'
+  
+  const linkWSP2 = 'https://wa.me/573017604450?text=%20Hola!%20Acabo%20de%20ver%20tu%20portafolio...'
 
   return (
     <div className="h-[10rem] w-full  bottom-0  text-white  flex flex-row  bg-color1 items-center justify-between">

@@ -8,6 +8,7 @@ import { SiMongodb } from 'react-icons/si';
 import { SiExpress } from 'react-icons/si';
 import { SiReact } from 'react-icons/si';
 import { SiNodedotjs } from 'react-icons/si';
+import { SiTailwindcss } from 'react-icons/si';
 
 const Home = () => {
   return (
@@ -33,7 +34,7 @@ const Home = () => {
         <a className='text-7xl text-black mb-2'><SiExpress/></a>
         <a className='text-7xl text-blue-500 mb-2'><SiReact/></a>
         <a className='text-7xl text-green-800 mb-2'><SiNodedotjs/></a>
-        
+        <a className='text-7xl text-cyan-400 mb-2' title='Tailwind CSS'><SiTailwindcss/></a>
       </div>
       </div>
     </div>

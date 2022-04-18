@@ -23,9 +23,9 @@ export default function Modal(props) {
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                  <h3 className="text-3xl font-semibold">
+                  <span className="text-4xl font-akshar font-bold">
                     {props.title}
-                  </h3>
+                  </span>
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                     onClick={() => setShowModal(false)}
@@ -36,7 +36,10 @@ export default function Modal(props) {
                   </button>
                 </div>
                 {/*body*/}
-                <div className="relative p-6 flex-auto">
+                <div className="w-full bg-color2 flex justify-center px-5 ">
+                  <img src={props.img} className='object-cover w-[20rem] h-[15rem] md:w-[30rem] md:h-[20rem]'/>
+                </div>
+                <div className="relative p-1 flex-auto">
                   <p className="my-4 text-slate-500 text-lg leading-relaxed">
                      {props.description}
                   </p>
