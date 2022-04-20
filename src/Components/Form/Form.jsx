@@ -43,12 +43,6 @@ const Form = () => {
           placeholder="Company"
           className="border-2 border-color2 rounded-md pl-2"
         ></input>
-        <input
-          type="number"
-          name="user_phone"
-          placeholder="phone"
-          className="border-2 border-color2 rounded-md pl-2 text-color1"
-        ></input>
          <input
           type="correo"
           name="user_correo"

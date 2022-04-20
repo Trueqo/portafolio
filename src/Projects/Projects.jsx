@@ -1,4 +1,4 @@
-import imgTodoList from '../assets/profile.jpg' 
+import imgTodoList from '../assets/todolist.png' 
 
 
 const me = [

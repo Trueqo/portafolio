@@ -36,8 +36,8 @@ export default function Modal(props) {
                   </button>
                 </div>
                 {/*body*/}
-                <div className="w-full bg-color2 flex justify-center px-5 ">
-                  <img src={props.img} className='object-cover w-[20rem] h-[15rem] md:w-[30rem] md:h-[20rem]'/>
+                <div className="w-full bg-color2 flex justify-center  ">
+                  <img src={props.img} className='object-cover w-[20rem] h-[15rem] md:w-full md:h-[20rem]'/>
                 </div>
                 <div className="relative p-1 flex-auto">
                   <p className="my-4 text-slate-500 text-lg leading-relaxed">
