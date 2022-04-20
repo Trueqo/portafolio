@@ -1,4 +1,4 @@
-import {todoListImg} from '../assets/todolist.png'
+import todoListImg from '../assets/ContactMe.png'
 
 const me = [
   {
