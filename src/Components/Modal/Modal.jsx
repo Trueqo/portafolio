@@ -1,6 +1,6 @@
 import React from "react";
 import { FaRegEye } from 'react-icons/fa';
-import dataProjects from '../../Projects/Projects'
+
 
 export default function Modal(props) {
   const [showModal, setShowModal] = React.useState(false);

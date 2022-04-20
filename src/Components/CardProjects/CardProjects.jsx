@@ -15,7 +15,7 @@ const CardProjects = () => {
 
             <div className="w-60 h-46 md:h-[5rem] md:w-[15] pb-4 bg-white rounded-b-lg flex justify-between items-center">
               <h1 className="pl-4 font-akshar text-xl">{datos.title}</h1>
-              <Modal title={datos.title}  description={datos.description} img={datos.img}/>
+              <Modal id={datos.id} title={datos.title}  description={datos.description} img={datos.img}/>
             </div>
           </div>
         );
