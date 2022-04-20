@@ -1,6 +1,6 @@
 import React from 'react'
 import Form from '../Components/Form/Form'
-import Recurso from '../assets/Recurso.png'
+import Recurso from '/assets/Recurso.png'
 const Contact = () => {
   return (
     <div className='min-h-screen px-10  pt-32 pb-44 relative flex flex-col items-center'>

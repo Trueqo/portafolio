@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../../assets/profile.jpg'
+import profile from '/assets/profile.jpg'
 const BackCard = () => {
   return (
     <div className='absolute min-w-full min-h-full bg-cover rounded-full' style={{backfaceVisibility:"hidden",transform:"rotateY(180deg)"}}>

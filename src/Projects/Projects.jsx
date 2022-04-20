@@ -1,4 +1,4 @@
-import todoListImg from '../assets/ContactMe.png'
+
 
 const me = [
   {
@@ -6,7 +6,7 @@ const me = [
     title: "TodoList",
     description:
       "Hola a todos bienvenido al todo list, el cual está hecho con el stack MERN, para usarlo solo debes hacer click en ir a tareas.",
-    img:todoListImg
+    img:'/assets/ContactMe.png'
   },
   {
     id:1,
