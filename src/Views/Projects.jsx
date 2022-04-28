@@ -3,7 +3,7 @@ import React from "react";
 import ContProjects from '../Components/ContProjects/ContProjects'
 const Projects = () => {
   return (
-    <div className="min-h-screen  flex flex-col ">
+    <div className="min-h-screen  flex flex-col " id="projects">
       
         <h1 className="  text-white font-bold text-5xl mx-auto">
           My projects

@@ -22,7 +22,7 @@ const CardProjects = () => {
       <div className="w-full py-2  rounded-t-xl flex flex-row justify-center">
         <HeaderContProjects seletcCategori={seletcCategori}/>
       </div>
-      <div className="grid grid-cols-1  gap-x-3 md:grid-cols-4">
+      <div className="grid grid-cols-1  gap-x-3 md:grid-cols-3 lg:grid-cols-4">
 
         {data.map((datos) => {
           return (

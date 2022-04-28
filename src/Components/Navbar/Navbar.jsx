@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import {GiHamburgerMenu} from 'react-icons/gi';
 import ContNavbar from './ContNavbar';
 import CVJulianOchoaBarco from '../../documents/CV.pdf'
+
 const Navbar = () => {
 
     const[active,setActive] = useState(false)
@@ -18,32 +19,36 @@ const Navbar = () => {
             
             
             
-            <span className='text-lg font-bold ml-4 lg:hidden '>
-                Wellcome to my Portafolio
+            <span className='text-4xl font-bold ml-4 lg:hidden '>
+                {'{Julián}'}
             </span>
             <button onClick={showMenu} className='absolute mr-4 text-4xl text-white md:hidden right-6'>
                 <GiHamburgerMenu/>
             </button>
             
-            <div className='md:flex md:mr-5 lg:mr-10 p-8'>
+            <div className='md:flex md:mr-5 lg:mr-10 p-6'>
                 <ul className='hidden md:flex md:flex-row md:gap-6 lg:gap-14 font-akshar'>
+                
                     <li className='hover:border-b-2 hover:border-teal-900 duration-500 cursor-pointer'>
-                        <a href='#' className='text-xl hover:text-teal-900 duration-500'>
+                        <a href='#home' className='text-xl hover:text-teal-900 duration-500'>
                             Home
                         </a>
                     </li>
+                
+                
                     <li className='hover:border-b-2 hover:border-teal-900 duration-500 cursor-pointer '>
-                        <a href='#' className='text-xl hover:text-teal-900 duration-500'>
+                        <a href='#projects' className='text-xl hover:text-teal-900 duration-500'>
                             Projects
                         </a>
                     </li>
+                
                     <li className='hover:border-b-2 hover:border-teal-900 duration-500 cursor-pointer'>
-                        <a href='#' className='text-xl hover:text-teal-900 duration-500'>
+                        <a href='#achievements' className='text-xl hover:text-teal-900 duration-500'>
                             Achievements
                         </a>
                     </li>
                     <li className='hover:border-b-2 hover:border-teal-900 duration-500 cursor-pointer'>
-                        <a href='#' className='text-xl hover:text-teal-900 duration-500'>
+                        <a href='#contact' className='text-xl hover:text-teal-900 duration-500'>
                             Contact
                         </a>
                     </li>
