@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import {GiHamburgerMenu} from 'react-icons/gi';
 import ContNavbar from './ContNavbar';
 import CVJulianOchoaBarco from '../../documents/CV.pdf'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -19,41 +20,49 @@ const Navbar = () => {
             
             
             
-            <span className='text-4xl font-bold ml-4 lg:hidden '>
-                {'{Julián}'}
-            </span>
+            <div className='w-1 h-1'>
+                <img  />
+            </div>
             <button onClick={showMenu} className='absolute mr-4 text-4xl text-white md:hidden right-6'>
                 <GiHamburgerMenu/>
             </button>
             
-            <div className='md:flex md:mr-5 lg:mr-10 p-6'>
+            <div className='md:flex justify-center p-6'>
                 <ul className='hidden md:flex md:flex-row md:gap-6 lg:gap-14 font-akshar'>
                 
                     <li className='hover:border-b-2 hover:border-teal-900 duration-500 cursor-pointer'>
-                        <a href='#home' className='text-xl hover:text-teal-900 duration-500'>
+                        <Link to={'/'}>
+                        <a href='#home' className='text-xl hover:text-teal-900 duration-500 p-2'>
                             Home
                         </a>
+                        </Link>
                     </li>
                 
                 
                     <li className='hover:border-b-2 hover:border-teal-900 duration-500 cursor-pointer '>
-                        <a href='#projects' className='text-xl hover:text-teal-900 duration-500'>
-                            Projects
-                        </a>
+                        <Link to={'projects'}>
+                            <a href='#projects' className='text-xl hover:text-teal-900 duration-500 p-2'>
+                                Projects
+                            </a>
+                        </Link>
                     </li>
                 
                     <li className='hover:border-b-2 hover:border-teal-900 duration-500 cursor-pointer'>
-                        <a href='#achievements' className='text-xl hover:text-teal-900 duration-500'>
+                        <Link to={'achievements'}>
+                        <a  className='text-xl hover:text-teal-900 duration-500 p-2'>
                             Achievements
                         </a>
+                        </Link>
                     </li>
                     <li className='hover:border-b-2 hover:border-teal-900 duration-500 cursor-pointer'>
-                        <a href='#contact' className='text-xl hover:text-teal-900 duration-500'>
+                        <Link to={'contact'}>
+                        <a href='#contact' className='text-xl hover:text-teal-900 duration-500 p-2'>
                             Contact
                         </a>
+                        </Link>
                     </li>
-                    <li className='hover:border-b-2 hover:border-white duration-500 cursor-pointer border-2 border-color2 rounded-xl  bg-color2 '>
-                        <a href={CVJulianOchoaBarco}  download={'CVJulianOchoaBarco'} className='text-white  text-xl hover:text-black duration-500 px-4 '>
+                    <li className='hover:border-white duration-500 cursor-pointer border-2 border-color2 rounded-xl  bg-color2'>
+                        <a href={CVJulianOchoaBarco}  download={'CVJulianOchoaBarco'} className='text-white  text-xl hover:text-black duration-500 px-4 border-4 border-color2 rounded-xl'>
                             CV
                         </a>
                     </li> 
