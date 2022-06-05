@@ -1,3 +1,9 @@
+import img1 from '/assets/preViews/preViewNasa.png'
+import { DiReact } from 'react-icons/di';
+import { AiOutlineApi } from 'react-icons/ai';
+import { SiTailwindcss } from 'react-icons/si';
+
+
 const technologies = [
     {
         id: '1',
@@ -5,7 +11,7 @@ const technologies = [
         tecno: '',
         project: 'php.',
         description: '',
-        img:''
+        img: ''
     },
     {
         id: '2',
@@ -13,7 +19,7 @@ const technologies = [
         tecno: '',
         project: 'react.',
         description: '',
-        img:''
+        img: ''
     },
     {
         id: '3',
@@ -21,15 +27,21 @@ const technologies = [
         tecno: '',
         project: 'book2.',
         description: '',
-        img:''
+        img: ''
     },
     {
         id: '4',
         categori: 'API',
         tecno: 'Mongodb',
-        project: 'book1.',
-        description: '.',
-        img:''
+        project: 'Nasa APIS.',
+        description: 'This project consumes several APIS provided by nasa',
+        img: img1,
+        techUses: [
+            {
+                tech1: <DiReact />,
+                tech2: <AiOutlineApi />,
+                tech3: <SiTailwindcss />
+            }]
     },
     {
         id: '5',
@@ -37,7 +49,7 @@ const technologies = [
         tecno: '',
         project: 'Js.',
         description: '',
-        img:''
+        img: ''
     },
     {
         id: '6',
@@ -45,7 +57,7 @@ const technologies = [
         tecno: '',
         project: 'book3.',
         description: '',
-        img:''
+        img: ''
     },
     {
         id: '7',
@@ -53,9 +65,9 @@ const technologies = [
         tecno: '',
         project: 'book4.',
         description: '',
-        img:''
+        img: ''
     }
-    
+
 ]
 
 export default technologies

@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaRegEye } from 'react-icons/fa';
-
+import technologies from "../../data/technologies";
 
 export default function Modal(props) {
-  const [showModal, setShowModal] = React.useState(false);
+  const [showModal, setShowModal] = useState(false);
+  const [data, setData] = useState(technologies);
   return (
     <>
       <button
@@ -11,7 +12,7 @@ export default function Modal(props) {
         type="button"
         onClick={() => setShowModal(true)}
       >
-        <FaRegEye/>
+        <FaRegEye />
       </button>
       {showModal ? (
         <>
@@ -37,23 +38,31 @@ export default function Modal(props) {
                 </div>
                 {/*body*/}
                 <div className="w-full bg-color2 flex justify-center  ">
-                  <img src={props.img} className='object-cover w-[20rem] h-[15rem] md:w-full md:h-[20rem]'/>
+                  <img src={props.img} className='object-cover w-[20rem] h-[15rem] md:w-full md:h-[20rem]' />
                 </div>
-                <div className="relative p-1 flex-auto">
+                <div className="relative p-1 flex-auto px-4">
                   <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                     {props.description}
+                    {props.description}
                   </p>
                 </div>
                 {/*footer*/}
-                <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
+                <div className="flex items-center justify-between p-6 border-t border-solid border-slate-200 rounded-b">
+
+                  <div className="bg-green-400 w-10 h-auto" >a
+                    {data.map((datos) => {
+                      <label>{datos.techUses}</label>
+                      {console.log(datos.techUses.tech1)}
+                    })}
+                  </div>
+
                   <button
-                    className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    className="text-red-600 bg-red-400 rounded-xl font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="button"
                     onClick={() => setShowModal(false)}
                   >
                     Close
                   </button>
-                  
+
                 </div>
               </div>
             </div>

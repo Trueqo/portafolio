@@ -4,6 +4,7 @@ import technologies from "../../data/technologies";
 import Modal from "../Modal/Modal"
 import HeaderContProjects from "../HeaderContProjects/HeaderContProjects";
 
+
 const CardProjects = () => {
   const [data, setData] = useState(technologies)
 
@@ -28,7 +29,7 @@ const CardProjects = () => {
           return (
             <div className=" flex flex-col  items-center mt-6 mb-1" key={datos.id}>
               <div className="md:h-[8rem] md:w-[15rem]  w-60 h-36 rounded-t-lg border-2">
-
+                <img src={datos.img} className="w-60 h-36 rounded-t-lg"/>
               </div>
 
               <div className="w-60 h-46 md:h-[5rem] md:w-[15] pb-4 bg-white rounded-b-lg flex justify-between items-center">
