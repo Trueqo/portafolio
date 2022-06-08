@@ -10,33 +10,33 @@ const ContNavbar = ({ showMenu, active }) => {
                 <button className='absolute top-1 right-10 mt-3 '><AiFillCloseSquare onClick={showMenu} className='cursor-pointer w-10 h-10 text-white' /></button>
                 <li className='hover:border-b-2 hover:border-teal-900 duration-500 cursor-pointer  mb-10 md:mb-20'>
                     <Link to={'/'}>
-                        <a href='#' className='text-white  text-2xl  md:text-5xl hover:text-teal-900 duration-500'>
+                        <span className='text-white  text-2xl  md:text-5xl hover:text-teal-900 duration-500'>
                             Home
-                        </a>
+                        </span>
                     </Link>
                 </li>
                 <li className='hover:border-b-2 hover:border-teal-900 duration-500 cursor-pointer  mb-10 md:mb-20'>
 
                     <Link to={'/projects'}>
-                        <a href='#' className='text-white  text-2xl  md:text-5xl hover:text-teal-900 duration-500'>
+                        <span className='text-white  text-2xl  md:text-5xl hover:text-teal-900 duration-500'>
                             Projects
-                        </a>
+                        </span>
                     </Link>
 
                 </li>
                 <li className='hover:border-b-2 hover:border-teal-900 duration-500 cursor-pointer mb-10 md:mb-20'>
                     <Link to={'/achievements'}>
-                        <a href='#' className='text-white  text-2xl  md:text-5xl hover:text-teal-900 duration-500'>
+                        <span className='text-white  text-2xl  md:text-5xl hover:text-teal-900 duration-500'>
                             Achievements
-                        </a>
+                        </span>
                     </Link>
                 </li>
                 <li className='hover:border-b-2 hover:border-teal-900 duration-500 cursor-pointer mb-10 md:mb-20'>
                     <Link to={'/contact'}>
 
-                        <a href='#' className='text-white  text-2xl  md:text-5xl hover:text-teal-900 duration-500'>
+                        <span  className='text-white  text-2xl  md:text-5xl hover:text-teal-900 duration-500'>
                             Contact
-                        </a>
+                        </span>
 
                     </Link>
                 </li>

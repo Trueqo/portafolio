@@ -49,10 +49,7 @@ export default function Modal(props) {
                 <div className="flex items-center justify-between p-6 border-t border-solid border-slate-200 rounded-b">
 
                   <div className="bg-green-400 w-10 h-auto" >a
-                    {data.map((datos) => {
-                      <label>{datos.techUses}</label>
-                      {console.log(datos.techUses.tech1)}
-                    })}
+                    
                   </div>
 
                   <button
