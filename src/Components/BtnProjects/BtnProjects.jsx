@@ -4,7 +4,7 @@ import React from 'react'
 const BtnProjects = ({ seletcCategori }) => {
 
 
-  const btnTechno = [{ id: 0, name: 'All' }, { id: 1, name: 'React' }, { id: 2, name: 'Mongodb' }, { id: 3, name: 'API' }, { id: 4, name: 'Js' }]
+  const btnTechno = [{ id: 0, name: 'All' }, { id: 1, name: 'React' }, { id: 2, name: 'FullStack' }, { id: 3, name: 'API' }, { id: 4, name: 'Js' }]
 
   function btnActive(id) {
     const botones = document.getElementsByClassName('boton')

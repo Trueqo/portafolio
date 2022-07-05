@@ -38,7 +38,12 @@ export default function Modal(props) {
                 </div>
                 {/*body*/}
                 <div className="w-full bg-color2 flex justify-center  ">
-                  <img src={props.img} className='object-cover w-[20rem] h-[15rem] md:w-full md:h-[20rem]' />
+                  
+                  <video className='object-cover w-[20rem] h-[15rem] md:w-full md:h-[20rem]'
+                  autoPlay>
+                    <source src={props.video} type="video/mp4" />
+                  </video>
+
                 </div>
                 <div className="relative p-1 flex-auto px-4">
                   <p className="my-4 text-slate-500 text-lg leading-relaxed">

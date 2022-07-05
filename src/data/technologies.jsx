@@ -1,4 +1,9 @@
 import img1 from "/assets/preViews/preViewNasa.png";
+
+//Okhlos 
+import img2 from "/public/assets/preViews/preViewOkhlos.png";
+import video2 from "/public/assets/videos/OKHLOS.mp4";
+
 // import { DiReact } from "react-icons/di";
 // import { AiOutlineApi } from "react-icons/ai";
 // import { SiTailwindcss } from "react-icons/si";
@@ -23,11 +28,12 @@ const technologies = [
   },
   {
     id: "3",
-    categori: "Mongodb",
+    categori: "FullStack",
     tecno: "",
-    project: "book2.",
-    description: "",
-    img: "",
+    project: "Okhlos mentoria.",
+    video: video2,
+    description:"Okhlos es una plataforma de mentoring que te ayuda a realizar match entre estudiantes y mentores, con Okhlos se logro optimizar un proceso que consumia aproximadamente 8 horas de trabajo.",
+    img: img2,
   },
   {
     id: "4",
