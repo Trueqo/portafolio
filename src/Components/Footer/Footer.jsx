@@ -15,7 +15,7 @@ const Footer = () => {
 
       </div>
       <div className="mr-2 text-7xl flex flex-row md:gap-5 md:mr-10">
-        <span href={linkGitHub} className="hover:text-violet-800" target='_blank'> <AiFillGithub /></span>
+        <a href={linkGitHub} className="hover:text-violet-800" target='_blank'> <AiFillGithub /></a>
         <span href={linkWSP2} className="hover:text-green-500" target='_blank'><AiOutlineWhatsApp /></span>
       </div>
     </div>
