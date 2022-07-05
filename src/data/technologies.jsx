@@ -4,6 +4,10 @@ import img1 from "/assets/preViews/preViewNasa.png";
 import img2 from "/public/assets/preViews/preViewOkhlos.png";
 import video2 from "/public/assets/videos/OKHLOS.mp4";
 
+//CRUD
+import img3 from "/public/assets/preViews/preViewCRUD.png";
+import video3 from "/public/assets/videos/CRUD.mp4";
+
 // import { DiReact } from "react-icons/di";
 // import { AiOutlineApi } from "react-icons/ai";
 // import { SiTailwindcss } from "react-icons/si";
@@ -20,11 +24,12 @@ const technologies = [
   },
   {
     id: "2",
-    categori: "React",
+    categori: "FullStack",
     tecno: "",
-    project: "react.",
-    description: "",
-    img: "",
+    project: "CRUD.",
+    video: video3,
+    description: "Gestor de citas en una base de datos, con interfaz de usuario.",
+    img: img3,
   },
   {
     id: "3",
