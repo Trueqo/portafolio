@@ -40,7 +40,7 @@ export default function Modal(props) {
                 <div className="w-full bg-color2 flex justify-center  ">
                   
                   <video className='object-cover w-[20rem] h-[15rem] md:w-full md:h-[20rem]'
-                  autoPlay>
+                  autoPlay muted>
                     <source src={props.video} type="video/mp4" />
                   </video>
 
