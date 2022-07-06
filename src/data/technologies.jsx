@@ -1,12 +1,16 @@
 import img1 from "/assets/preViews/preViewNasa.png";
 
 //Okhlos 
-import img2 from "/public/assets/preViews/preViewOkhlos.png";
-import video2 from "/public/assets/videos/OKHLOS.mp4";
+import img2 from "/assets/preViews/preViewOkhlos.png";
+import video2 from "/assets/videos/OKHLOS.mp4";
 
 //CRUD
-import img3 from "/public/assets/preViews/preViewCRUD.png";
-import video3 from "/public/assets/videos/CRUD.mp4";
+import img3 from "/assets/preViews/preViewCRUD.png";
+import video3 from "/assets/videos/CRUD.mp4";
+
+//Chocotela
+import img4 from "/assets/preViews/preViewChocotela.png";
+import video4 from "/assets/videos/Chocotela.mp4";
 
 // import { DiReact } from "react-icons/di";
 // import { AiOutlineApi } from "react-icons/ai";
@@ -15,11 +19,12 @@ import video3 from "/public/assets/videos/CRUD.mp4";
 const technologies = [
   {
     id: "1",
-    categori: "All",
+    categori: "React",
     tecno: "",
-    project: "php.",
-    description: "",
-    img: "",
+    project: "Chocotela E-commerce.",
+    video: video4,
+    description: "En esta ocasión tuve la oportunidad de realizar un E-commerce para el emprendimiento Chocotela, se realizó una aplicación web que permite la administración de los productos que se vendían en el local, así como la gestión de los pedidos.",
+    img: img4,
     // tecUse: [{}, {}, {}],
   },
   {
@@ -49,30 +54,7 @@ const technologies = [
     img: img1
     // tecUse: [<DiReact />, <AiOutlineApi />, <SiTailwindcss />],
   },
-  {
-    id: "5",
-    categori: "Js",
-    tecno: "",
-    project: "Js.",
-    description: "",
-    img: "",
-  },
-  {
-    id: "6",
-    categori: "Mongodb",
-    tecno: "",
-    project: "book3.",
-    description: "",
-    img: "",
-  },
-  {
-    id: "7",
-    categori: "Mongodb",
-    tecno: "",
-    project: "book4.",
-    description: "",
-    img: "",
-  },
+  
 ];
 
 export default technologies;
