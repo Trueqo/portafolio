@@ -10,7 +10,7 @@ import video3 from "/assets/videos/CRUD.mp4";
 
 //Chocotela
 import img4 from "/assets/preViews/preViewChocotela.png";
-import video4 from "/assets/videos/Chocotela.mp4";
+import video4 from "/assets/videos/CHOCOTELA.mp4";
 
 // import { DiReact } from "react-icons/di";
 // import { AiOutlineApi } from "react-icons/ai";
