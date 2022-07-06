@@ -31,6 +31,11 @@ const Carousel = () => {
                     data-bs-slide-to="2"
                     aria-label="Slide 1"
                 ></button>
+                <button
+                    data-bs-target="#carouselDarkVariant"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                ></button>
             </div>
 
             
@@ -63,6 +68,18 @@ const Carousel = () => {
                 <div className="carousel-item relative float-left w-full">
                     <img
                         src={certification[2].img}
+                        className="block w-full"
+                        alt="Woman Reading a Book"
+                    />
+                    <div className="carousel-caption hidden md:block absolute text-center top-0">
+                        
+                    </div>
+                    
+                </div>
+
+                <div className="carousel-item relative float-left w-full">
+                    <img
+                        src={certification[3].img}
                         className="block w-full"
                         alt="Woman Reading a Book"
                     />

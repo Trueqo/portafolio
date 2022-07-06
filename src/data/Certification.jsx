@@ -2,6 +2,11 @@
 
 const certification =[
     {
+        img:'/assets/certificados/diploma4.png',
+        title:'Finalista Hackaton',
+        description:''    
+    },
+    {
         img:'/assets/certificados/diploma1.png',
         title:'Diplomado FullStack',
         description:'blablabla'    
@@ -16,6 +21,7 @@ const certification =[
         title:'Finalista Hackaton',
         description:''    
     }
+    
 ]
 
 export default certification
