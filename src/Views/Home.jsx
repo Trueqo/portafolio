@@ -22,7 +22,7 @@ const Home = () => {
                     <span className='font-akshar font-bold text-3xl mt-5'>Hello !</span>
 
                     <div className='w-[20rem] md:w-[24rem] font-akshar'>
-                        <a className='mx-auto'>Welcome to my web portfolio. Let me tell you about me. I am Julián OchoaBarco. I am 22 year old. I live in Medellin-Colombia. I am a Full-Stack developer and I am currently studying Mechatronics Engineering. I am engaged</a>
+                        <a className='mx-auto'>Bienvenido a mi portafolio. Soy Julián Ochoa Barco. Tengo 22 años. Vivo en Medellín-Colombia. Soy desarrollador Full-Stack y actualmente estudio Ingeniería Mecatrónica (Octavo semestre). Soy un apasionado de la robótica y la programación. </a>
                     </div>
                 </div>
             </div>
