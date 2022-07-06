@@ -5,7 +5,7 @@ import img2 from "/assets/preViews/preViewOkhlos.png";
 import video2 from "/assets/videos/OKHLOS.mp4";
 
 //CRUD
-import img3 from "/assets/preViews/preViewCRUD.png";
+import img3 from "/assets/preViews/preViewCrud.png";
 import video3 from "/assets/videos/CRUD.mp4";
 
 //Chocotela
