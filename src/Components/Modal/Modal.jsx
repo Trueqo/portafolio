@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { FaRegEye } from 'react-icons/fa';
+import { AiFillGithub } from 'react-icons/ai';
+import { AiOutlineChrome } from 'react-icons/ai';
 import technologies from "../../data/technologies";
 
 export default function Modal(props) {
@@ -53,8 +55,13 @@ export default function Modal(props) {
                 {/*footer*/}
                 <div className="flex items-center justify-between p-6 border-t border-solid border-slate-200 rounded-b">
 
-                  <div className="bg-green-400 w-10 h-auto" >a
-                    
+                  <div className="w-10 h-auto flex flex-row gap-4" >
+                      <a className="text-4xl cursor-pointer" href={props.linkR} target="_blank">
+                        <AiFillGithub/>
+                      </a>
+                      <a className="text-4xl cursor-pointer" href={props.linkD} target="_blank">
+                        <AiOutlineChrome/>
+                      </a>
                   </div>
 
                   <button
